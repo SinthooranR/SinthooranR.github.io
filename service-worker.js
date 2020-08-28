@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SinthooranR-react/precache-manifest.e2056cd2ab7fb5674a70b614d610c4a9.js"
+  "/SinthooranR-react/precache-manifest.64c866c12e376921b19d627ec92e15a3.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SinthooranR-react/static/css/main.ce544538.chunk.css",
-    "main.js": "/SinthooranR-react/static/js/main.cc63df5c.chunk.js",
-    "main.js.map": "/SinthooranR-react/static/js/main.cc63df5c.chunk.js.map",
+    "main.js": "/SinthooranR-react/static/js/main.c9247d8f.chunk.js",
+    "main.js.map": "/SinthooranR-react/static/js/main.c9247d8f.chunk.js.map",
     "runtime-main.js": "/SinthooranR-react/static/js/runtime-main.eac657b6.js",
     "runtime-main.js.map": "/SinthooranR-react/static/js/runtime-main.eac657b6.js.map",
     "static/js/2.a96f6ff2.chunk.js": "/SinthooranR-react/static/js/2.a96f6ff2.chunk.js",
     "static/js/2.a96f6ff2.chunk.js.map": "/SinthooranR-react/static/js/2.a96f6ff2.chunk.js.map",
     "index.html": "/SinthooranR-react/index.html",
-    "precache-manifest.e2056cd2ab7fb5674a70b614d610c4a9.js": "/SinthooranR-react/precache-manifest.e2056cd2ab7fb5674a70b614d610c4a9.js",
+    "precache-manifest.64c866c12e376921b19d627ec92e15a3.js": "/SinthooranR-react/precache-manifest.64c866c12e376921b19d627ec92e15a3.js",
     "service-worker.js": "/SinthooranR-react/service-worker.js",
     "static/css/main.ce544538.chunk.css.map": "/SinthooranR-react/static/css/main.ce544538.chunk.css.map",
     "static/js/2.a96f6ff2.chunk.js.LICENSE.txt": "/SinthooranR-react/static/js/2.a96f6ff2.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.eac657b6.js",
     "static/js/2.a96f6ff2.chunk.js",
     "static/css/main.ce544538.chunk.css",
-    "static/js/main.cc63df5c.chunk.js"
+    "static/js/main.c9247d8f.chunk.js"
   ]
 }

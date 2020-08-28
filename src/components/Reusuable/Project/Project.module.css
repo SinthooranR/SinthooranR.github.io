@@ -1,0 +1,21 @@
+.Project{
+    width: 450px;
+}
+
+.Project img {
+    padding-top: 10px;
+    height: 250px;
+}
+
+@media (max-width: 500px){
+    .Project{
+        width: 425px;
+        margin-bottom: 15px;
+    }
+
+    .Project img {
+        padding-top: 10px;
+        height: 250px;
+        width: 300px;
+    }
+}

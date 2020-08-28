@@ -1,0 +1,24 @@
+.NavItem{
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.NavItem a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #BF5FFF;
+}
+
+.NavItem a:hover{
+    border-top: 5px solid #BF5FFF;
+    cursor: pointer;
+}
+
+.NavItem a:visited{
+    color: #BF5FFF;
+}

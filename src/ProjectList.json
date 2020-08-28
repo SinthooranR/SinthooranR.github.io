@@ -1,0 +1,41 @@
+[
+    {
+        "title": "WeatherOwl",
+        "description": "Project made using Android Studio, Java and the free OpenWeatherMap API. ",
+        "link": "https://github.com/SinthooranR/WeatherApp",
+        "image": "images/WeatherOwl.jpg",
+        "authors": "Sinthooran Ravinathan, Gavin Gosling, Alex Zheng"
+    },
+    {
+        "title": "Gamecube Project",
+        "description": "A Gamecube Model created using OpenGL, C++, GLFW, GLM, and many more libraries.",
+        "link": "https://github.com/SinthooranR/CSCI3090U_FinalProject",
+        "image": "images/Gamecube.PNG",
+        "authors": "Sinthooran Ravinathan, Samuel Pilkey"
+    },
+    {
+        "title": "Repository Viewing App",
+        "description": "A Repository Viewing App done using HTML, CSS, JavaScript and D3.js",
+        "link": "https://github.com/SinthooranR/InfoVis_FinalProject",
+        "image": "images/repoviewer.png",
+        "authors":"Sinthooran Ravinathan, Gavin Gosling, Colin Shaw"
+    },
+    {
+        "title": "Notifier",
+        "description": "A Notification App created using VueJS, NodeJS, Postgres Database, GraphQL, and many more.",
+        "link": "https://github.com/SinthooranR/CSCI3230U-Project",
+        "image": "images/notifier.gif",
+        "authors": "Sinthooran Ravinathan, Daniel Bullock, Nathan Beals, Alexander Waddell"
+    },
+
+    {
+        "title": "Old Website",
+        "description": "My old Portfolio website made using HTML, CSS, and some Javascript",
+        "link": "https://github.com/SinthooranR/SinthooranR.github.io",
+        "image": "images/oldWebsite.PNG",
+        "authors": "Sinthooran Ravinathan"
+    }
+
+
+      
+]

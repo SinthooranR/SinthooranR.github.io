@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SinthooranR-react/static/css/main.f64ac87f.chunk.css",
+    "main.css": "/SinthooranR-react/static/css/main.d8c01862.chunk.css",
     "main.js": "/SinthooranR-react/static/js/main.cc63df5c.chunk.js",
     "main.js.map": "/SinthooranR-react/static/js/main.cc63df5c.chunk.js.map",
     "runtime-main.js": "/SinthooranR-react/static/js/runtime-main.eac657b6.js",
@@ -8,9 +8,9 @@
     "static/js/2.a96f6ff2.chunk.js": "/SinthooranR-react/static/js/2.a96f6ff2.chunk.js",
     "static/js/2.a96f6ff2.chunk.js.map": "/SinthooranR-react/static/js/2.a96f6ff2.chunk.js.map",
     "index.html": "/SinthooranR-react/index.html",
-    "precache-manifest.c3ef5eab4eadb9775a433748adc1b402.js": "/SinthooranR-react/precache-manifest.c3ef5eab4eadb9775a433748adc1b402.js",
+    "precache-manifest.9114f1e0a17c43ebe6da19fe18ff3d5a.js": "/SinthooranR-react/precache-manifest.9114f1e0a17c43ebe6da19fe18ff3d5a.js",
     "service-worker.js": "/SinthooranR-react/service-worker.js",
-    "static/css/main.f64ac87f.chunk.css.map": "/SinthooranR-react/static/css/main.f64ac87f.chunk.css.map",
+    "static/css/main.d8c01862.chunk.css.map": "/SinthooranR-react/static/css/main.d8c01862.chunk.css.map",
     "static/js/2.a96f6ff2.chunk.js.LICENSE.txt": "/SinthooranR-react/static/js/2.a96f6ff2.chunk.js.LICENSE.txt",
     "static/media/Sinthooran_Ravinathan_Resume.pdf": "/SinthooranR-react/static/media/Sinthooran_Ravinathan_Resume.a29e8eb9.pdf",
     "static/media/me.png": "/SinthooranR-react/static/media/me.66512055.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.eac657b6.js",
     "static/js/2.a96f6ff2.chunk.js",
-    "static/css/main.f64ac87f.chunk.css",
+    "static/css/main.d8c01862.chunk.css",
     "static/js/main.cc63df5c.chunk.js"
   ]
 }

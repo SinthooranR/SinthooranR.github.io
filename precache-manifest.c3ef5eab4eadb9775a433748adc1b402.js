@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d4521d8e298c7e2ef5a03b82a5a66da",
+    "revision": "92876a55fe1db69f32672d24573c6e25",
     "url": "/SinthooranR-react/index.html"
   },
   {
-    "revision": "560373fdd4720f2387c1",
-    "url": "/SinthooranR-react/static/css/main.cd2d885c.chunk.css"
+    "revision": "35253a3695bb36edd015",
+    "url": "/SinthooranR-react/static/css/main.f64ac87f.chunk.css"
   },
   {
-    "revision": "8ece5382804634bea608",
-    "url": "/SinthooranR-react/static/js/2.d3735cba.chunk.js"
+    "revision": "965c83592eef79ca2a38",
+    "url": "/SinthooranR-react/static/js/2.a96f6ff2.chunk.js"
   },
   {
     "revision": "6ff3be09b66a6bae4c4000c31aff339c",
-    "url": "/SinthooranR-react/static/js/2.d3735cba.chunk.js.LICENSE.txt"
+    "url": "/SinthooranR-react/static/js/2.a96f6ff2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "560373fdd4720f2387c1",
-    "url": "/SinthooranR-react/static/js/main.78fbc471.chunk.js"
+    "revision": "35253a3695bb36edd015",
+    "url": "/SinthooranR-react/static/js/main.cc63df5c.chunk.js"
   },
   {
     "revision": "c8a005c2ce63fb4fefd3",

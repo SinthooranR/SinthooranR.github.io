@@ -7,15 +7,28 @@
     height: 250px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 499px){
     .Project{
-        width: 425px;
+        width: 400px;
         margin-bottom: 15px;
     }
 
     .Project img {
         padding-top: 10px;
-        height: 250px;
+        height: 200px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 399px){
+    .Project{
+        width: 300px;
+        margin-bottom: 15px;
+    }
+
+    .Project img {
+        padding-top: 10px;
+        height: 200px;
         width: 300px;
     }
 }

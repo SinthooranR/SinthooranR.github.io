@@ -10,7 +10,7 @@
         "title": "Gamecube Project",
         "description": "A Gamecube Model created using OpenGL, C++, GLFW, GLM, and many more libraries.",
         "link": "https://github.com/SinthooranR/CSCI3090U_FinalProject",
-        "image": "images/Gamecube.PNG",
+        "image": "images/gamecube.PNG",
         "authors": "Sinthooran Ravinathan, Samuel Pilkey"
     },
     {

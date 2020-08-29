@@ -24,11 +24,12 @@
     .Project{
         width: 300px;
         margin-bottom: 15px;
+        margin-left: 5%;
     }
 
     .Project img {
         padding-top: 10px;
-        height: 200px;
+        height: 250px;
         width: 300px;
     }
 }

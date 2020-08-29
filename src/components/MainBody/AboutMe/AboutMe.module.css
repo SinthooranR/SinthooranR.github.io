@@ -56,3 +56,15 @@
     }
 }
 
+@media (max-width: 499px){
+    .Interests{
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 399px){
+    .Interests{
+        margin-right: 10%;
+    }
+}
+

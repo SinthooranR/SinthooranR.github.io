@@ -30,6 +30,13 @@
     }
 }
 
+@media (max-width: 399px){
+    .Navbar div img {
+        display: none;
+    }
+}
+
+
 
 
 

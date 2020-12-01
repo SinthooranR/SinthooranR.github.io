@@ -19,10 +19,7 @@ const Welcome = (props) => {
 
   return (
     <div className={[classes.Welcome, bgTheme].join(" ")}>
-      <h2>
-        Welcome, Scroll down for more, or use the Navigation above and check out
-        the external links
-      </h2>
+      <h1>Welcome</h1>
     </div>
   );
 };

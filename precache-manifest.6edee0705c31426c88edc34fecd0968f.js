@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ad0da0538e5b746f2df898271f021e9",
+    "revision": "b70d5b9e23f04ff00797666dc7ccf657",
     "url": "/SinthooranR-react/index.html"
   },
   {
-    "revision": "3b35d9c12deab73de47b",
-    "url": "/SinthooranR-react/static/css/main.75c66eda.chunk.css"
+    "revision": "62cc38e4ded830ffb642",
+    "url": "/SinthooranR-react/static/css/main.94e20abb.chunk.css"
   },
   {
     "revision": "d755965497497c49502b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SinthooranR-react/static/js/2.fe72f884.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3b35d9c12deab73de47b",
+    "revision": "62cc38e4ded830ffb642",
     "url": "/SinthooranR-react/static/js/main.8539f120.chunk.js"
   },
   {

@@ -1,50 +1,50 @@
-.Projects{
+.Projects {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  grid-gap: 40px;
+  grid-template-columns: repeat(2, calc(80% / 2));
+  grid-auto-rows: auto;
+  grid-auto-rows: minmax(10px, auto);
+  justify-content: center;
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+  .Projects {
     display: grid;
     text-align: center;
-    justify-content: center;
-    grid-gap: 40px;
-    grid-template-columns: repeat(2, calc(900px / 2));
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, calc(900px / 2));
     grid-auto-rows: auto;
     grid-auto-rows: minmax(10px, auto);
     justify-content: center;
-    min-height: 100vh; 
-    margin-bottom: 30px;
+  }
 }
 
-@media (max-width: 900px){
-    .Projects{
-        display: grid;
-        text-align: center;
-        grid-gap: 10px;
-        grid-template-columns: repeat(1, calc(900px / 2));
-        grid-auto-rows: auto;
-        grid-auto-rows: minmax(10px, auto);
-        justify-content: center;
-    }  
+@media (max-width: 499px) {
+  .Projects {
+    display: grid;
+    text-align: center;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, calc(800px / 2));
+    grid-auto-rows: auto;
+    grid-auto-rows: minmax(10px, auto);
+    justify-content: center;
+    padding-left: 50px;
+  }
 }
 
-@media (max-width: 499px){
-        .Projects{
-            display: grid;
-            text-align: center;
-            grid-gap: 30px;
-            grid-template-columns: repeat(1, calc(800 / 2));
-            grid-auto-rows: auto;
-            grid-auto-rows: minmax(10px, auto);
-            justify-content: center;
-            padding-left: 50px;
-        }  
-}
-
-@media (max-width: 399px){
-    .Projects{
-        display: grid;
-        text-align: center;
-        grid-gap: 10px;
-        grid-template-columns: repeat(1, calc(700 / 2));
-        grid-auto-rows: auto;
-        grid-auto-rows: minmax(10px, auto);
-        justify-content: center;
-        padding-left: 100px;
-    }  
+@media (max-width: 399px) {
+  .Projects {
+    display: grid;
+    text-align: center;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, calc(700px / 2));
+    grid-auto-rows: auto;
+    grid-auto-rows: minmax(10px, auto);
+    justify-content: center;
+    padding-left: 100px;
+  }
 }

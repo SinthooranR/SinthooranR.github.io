@@ -1,41 +1,45 @@
 [
     {
         "title": "WeatherOwl",
-        "description": "Project made using Android Studio, Java and the free OpenWeatherMap API. ",
+        "description": "Android Studio | Java | OpenWeatherMap API ",
         "link": "https://github.com/SinthooranR/WeatherApp",
-        "image": "images/WeatherOwl.jpg",
-        "authors": "Sinthooran Ravinathan, Gavin Gosling, Alex Zheng"
+        "image": "images/WeatherOwl.jpg"
     },
     {
         "title": "Gamecube Project",
-        "description": "A Gamecube Model created using OpenGL, C++, GLFW, GLM, and many more libraries.",
+        "description": "OpenGL | C++ | GLFW | GLM ",
         "link": "https://github.com/SinthooranR/CSCI3090U_FinalProject",
-        "image": "images/gamecube.PNG",
-        "authors": "Sinthooran Ravinathan, Samuel Pilkey"
+        "image": "images/gamecube.PNG"
     },
     {
         "title": "Repository Viewing App",
-        "description": "A Repository Viewing App done using HTML, CSS, JavaScript and D3.js",
+        "description": "HTML | CSS | JavaScript | D3.js",
         "link": "https://github.com/SinthooranR/InfoVis_FinalProject",
-        "image": "images/repoviewer.png",
-        "authors":"Sinthooran Ravinathan, Gavin Gosling, Colin Shaw"
+        "image": "images/repoviewer.png"
     },
     {
         "title": "Notifier",
-        "description": "A Notification App created using VueJS, NodeJS, Postgres Database, GraphQL, and many more.",
+        "description": "VueJS | NodeJS | Postgres | GraphQL",
         "link": "https://github.com/SinthooranR/CSCI3230U-Project",
-        "image": "images/notifier.gif",
-        "authors": "Sinthooran Ravinathan, Daniel Bullock, Nathan Beals, Alexander Waddell"
+        "image": "images/notifier.gif"
     },
 
     {
-        "title": "Old Website",
-        "description": "My old Portfolio website made using HTML, CSS, and some Javascript",
+        "title": "Old Portfolio",
+        "description": "HTML | CSS | Javascript",
         "link": "https://github.com/SinthooranR/SinthooranR.github.io",
-        "image": "images/oldWebsite.PNG",
-        "authors": "Sinthooran Ravinathan"
-    }
-
-
-      
+        "image": "images/oldWebsite.PNG"
+    },
+    {
+        "title": "Credit Card App",
+        "description": "React | NodeJS | Express | MongoDB | Axios | Material-UI",
+        "link": "https://github.com/SinthooranR/SinthooranR.github.io",
+        "image": "images/creditCard.webp"
+    },    
+    {
+    "title": "Mock Forum Site",
+    "description": "React | NodeJS | Express | MongoDB | Axios",
+    "link": "https://github.com/SinthooranR/SinthooranR.github.io",
+    "image": "images/mockForum.webp"
+}
 ]

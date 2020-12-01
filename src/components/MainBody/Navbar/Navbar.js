@@ -1,41 +1,72 @@
-import React from 'react';
-import classes from './Navbar.module.css';
-import NavItem from '../../Reusuable/NavItem/NavItem';
-import Typical from 'react-typical';
-import logo from '../../../assets/logo/react.gif';
-import { GitHub, LinkedIn, PictureAsPdfSharp } from '@material-ui/icons';
-import Resume from '../../../assets/Sinthooran_Ravinathan_Resume.pdf';
+import React, { useContext } from "react";
+import { Email, GitHub, LinkedIn, PictureAsPdfSharp } from "@material-ui/icons";
+import Resume from "../../../assets/Sinthooran_Ravinathan_Resume.pdf";
+import { MainContext } from "../../../main_context";
+import WbSunnyIcon from "@material-ui/icons/WbSunny";
+import NightsStayIcon from "@material-ui/icons/NightsStay";
+import classes from "./Navbar.module.css";
 
-const navbar = () => {
-    return (
-        <header className={classes.Navbar}>
-            <div>
-                <img src={logo} alt='logo' />
-            </div>
+const Navbar = (props) => {
+  const mainTheme = useContext(MainContext);
 
-            <span className="myName">
-                <Typical steps={['Sinthooran Ravinathan', 5000, 'Computer Science Graduate', 5000]}
-                    loop={Infinity}
-                    wrapper="h3" />
-            </span>
+  const themeSwitch = (event) => {
+    mainTheme.switchTheme();
+    event.preventDefault();
+  };
 
-            <nav>
-                <div>
-                    <GitHub fontSize="large" />
-                    <NavItem item="Github" link="https://github.com/SinthooranR" />
-                </div>
-                <div>
-                    <LinkedIn fontSize="large" />
-                    <NavItem item="LinkedIn" link="https://www.linkedin.com/in/sinthooranravinathan/" />
-                </div>
-                <div>
-                    <PictureAsPdfSharp fontSize="large" />
-                    <NavItem item="Resume" link={Resume} />
-                </div>
-            </nav>
-        </header>
-    );
+  let navTheme;
+
+  switch (mainTheme.theme) {
+    case false:
+      navTheme = classes.LightNav;
+      break;
+    case true:
+      navTheme = classes.DarkNav;
+      break;
+    default:
+  }
+
+  return (
+    <header className={[classes.Navbar, navTheme].join(" ")}>
+      <span className={classes.Name}>
+        <h3>Sinthooran Ravinathan</h3>
+      </span>
+
+      <nav>
+        <a
+          href="mailto: sinthooranr@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Email fontSize="large" />
+        </a>
+        <a
+          href="https://github.com/SinthooranR"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GitHub fontSize="large" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/sinthooranravinathan/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <LinkedIn fontSize="large" />
+        </a>
+        <a href={Resume} target="_blank" rel="noopener noreferrer">
+          <PictureAsPdfSharp fontSize="large" />
+        </a>
+      </nav>
+      <div onClick={themeSwitch} className={classes.ThemeIcon}>
+        {!mainTheme.theme ? (
+          <WbSunnyIcon fontSize="large" />
+        ) : (
+          <NightsStayIcon fontSize="large" />
+        )}
+      </div>
+    </header>
+  );
 };
 
-export default navbar;
-
+export default Navbar;

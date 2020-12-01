@@ -1,15 +1,30 @@
-import React from 'react'
-import Typical from 'react-typical';
-import classes from './Welcome.module.css';
-import ParticlesBg from 'particles-bg';
+import React, { useContext } from "react";
+import { MainContext } from "../../../main_context";
+import classes from "./Welcome.module.css";
 
-const welcome = (props) => (
-    <div className={classes.Welcome}>
-        <Typical className={classes.Text} steps={['Welcome', 3000, 'Scroll down for more, or use the Navigation above and check out the external links', 5000]}
-            loop={Infinity}
-            wrapper="h2" />
-        <ParticlesBg type="square" bg={true} />
+const Welcome = (props) => {
+  const mainTheme = useContext(MainContext);
+
+  let bgTheme;
+
+  switch (mainTheme.theme) {
+    case false:
+      bgTheme = classes.LightBg;
+      break;
+    case true:
+      bgTheme = classes.DarkBg;
+      break;
+    default:
+  }
+
+  return (
+    <div className={[classes.Welcome, bgTheme].join(" ")}>
+      <h2>
+        Welcome, Scroll down for more, or use the Navigation above and check out
+        the external links
+      </h2>
     </div>
-);
+  );
+};
 
-export default welcome;
+export default Welcome;

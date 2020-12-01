@@ -1,12 +1,26 @@
-.Welcome{
-    position: relative;
-    height: 730px;
-    width: 100%;
-    text-align: center;
-    /* min-height: 100vh;  */
+.Welcome {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  min-height: 100vh;
 }
 
-.Text{
-    margin: 0px;
-    padding-top: 300px;
+.Welcome h2 {
+  width: 75%;
+  margin: 0 0 0 10%;
+  padding-top: 25%;
+}
+
+.LightBg {
+  background-image: url("../../../assets/images/backgrounds/daytime.png");
+  /* background-attachment: fixed; */
+  background-size: cover;
+  transition: 1s; /*use this for transitioning between the themes*/
+}
+
+.DarkBg {
+  background-image: url("../../../assets/images/backgrounds/nighttime.jpg");
+  /* background-attachment: fixed; */
+  background-size: cover;
+  transition: 1s;
 }

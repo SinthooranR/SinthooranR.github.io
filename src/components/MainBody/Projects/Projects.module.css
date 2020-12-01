@@ -33,6 +33,7 @@
     grid-auto-rows: minmax(10px, auto);
     justify-content: center;
     padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
@@ -46,5 +47,6 @@
     grid-auto-rows: minmax(10px, auto);
     justify-content: center;
     padding-left: 100px;
+    padding-right: 100px;
   }
 }

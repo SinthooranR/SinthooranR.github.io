@@ -56,7 +56,7 @@ const Project = (props) => {
       {panelDisplay}
       <div>
         <button onClick={panelSwitcher} className={buttonColor}>
-          {!panel ? "Libraries Used " : "Click Back"}
+          {!panel ? "Libraries" : "Return"}
         </button>
         <button className={githubColor}>
           <a href={props.link} target="_blank" rel="noopener noreferrer">

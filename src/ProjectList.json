@@ -12,6 +12,12 @@
         "image": "images/gamecube.PNG"
     },
     {
+        "title": "Old Portfolio",
+        "description": "HTML | CSS | Javascript",
+        "link": "https://github.com/SinthooranR/SinthooranR.github.io",
+        "image": "images/oldWebsite.PNG"
+    },
+    {
         "title": "Repository Viewing App",
         "description": "HTML | CSS | JavaScript | D3.js",
         "link": "https://github.com/SinthooranR/InfoVis_FinalProject",
@@ -23,23 +29,16 @@
         "link": "https://github.com/SinthooranR/CSCI3230U-Project",
         "image": "images/notifier.gif"
     },
-
-    {
-        "title": "Old Portfolio",
-        "description": "HTML | CSS | Javascript",
-        "link": "https://github.com/SinthooranR/SinthooranR.github.io",
-        "image": "images/oldWebsite.PNG"
-    },
     {
         "title": "Credit Card App",
         "description": "React | NodeJS | Express | MongoDB | Axios | Material-UI",
-        "link": "https://github.com/SinthooranR/SinthooranR.github.io",
+        "link": "https://github.com/SinthooranR/Banking_App",
         "image": "images/creditCard.webp"
     },    
     {
     "title": "Mock Forum Site",
     "description": "React | NodeJS | Express | MongoDB | Axios",
-    "link": "https://github.com/SinthooranR/SinthooranR.github.io",
+    "link": "https://github.com/SinthooranR/Forum_Site",
     "image": "images/mockForum.webp"
 }
 ]

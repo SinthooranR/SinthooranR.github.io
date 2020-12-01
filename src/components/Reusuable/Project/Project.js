@@ -6,17 +6,14 @@ import classes from "./Project.module.css";
 const Project = (props) => {
   const panelContext = useContext(MainContext);
   let panelColor;
-  let githubColor;
 
   switch (panelContext.theme) {
     case false:
       panelColor = classes.LightBorder;
-      githubColor = classes.GitLight;
       break;
 
     case true:
       panelColor = classes.DarkBorder;
-      githubColor = classes.GitDark;
       break;
 
     default:
@@ -29,11 +26,9 @@ const Project = (props) => {
         <h2>{props.title}</h2>
         <p>{props.description}</p>
       </div>
-      <div className={githubColor}>
-        <a href={props.link} target="_blank" rel="noopener noreferrer">
-          <GitHub />
-        </a>
-      </div>
+      <a href={props.link} target="_blank" rel="noopener noreferrer">
+        <GitHub />
+      </a>
     </div>
   );
 };

@@ -7,7 +7,7 @@
 
 .Welcome h1 {
   width: 75%;
-  margin: 0 0 0 10%;
+  margin: auto;
   padding-top: 25%;
   /* transition: 1s; */
   animation: fade 3s ease-in;

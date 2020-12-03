@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/SinthooranR-react/static/css/main.4936982f.chunk.css",
-    "main.js": "/SinthooranR-react/static/js/main.9f01da62.chunk.js",
-    "main.js.map": "/SinthooranR-react/static/js/main.9f01da62.chunk.js.map",
-    "runtime-main.js": "/SinthooranR-react/static/js/runtime-main.eac657b6.js",
-    "runtime-main.js.map": "/SinthooranR-react/static/js/runtime-main.eac657b6.js.map",
-    "static/js/2.390e01c6.chunk.js": "/SinthooranR-react/static/js/2.390e01c6.chunk.js",
-    "static/js/2.390e01c6.chunk.js.map": "/SinthooranR-react/static/js/2.390e01c6.chunk.js.map",
-    "index.html": "/SinthooranR-react/index.html",
-    "precache-manifest.fa79cf4d3d70b390f546966552093220.js": "/SinthooranR-react/precache-manifest.fa79cf4d3d70b390f546966552093220.js",
-    "service-worker.js": "/SinthooranR-react/service-worker.js",
-    "static/css/main.4936982f.chunk.css.map": "/SinthooranR-react/static/css/main.4936982f.chunk.css.map",
-    "static/js/2.390e01c6.chunk.js.LICENSE.txt": "/SinthooranR-react/static/js/2.390e01c6.chunk.js.LICENSE.txt",
-    "static/media/Sinthooran_Ravinathan_Resume.pdf": "/SinthooranR-react/static/media/Sinthooran_Ravinathan_Resume.1ccd6d4f.pdf",
-    "static/media/Welcome.module.css": "/SinthooranR-react/static/media/nighttime.fee6bd75.jpg",
-    "static/media/me.png": "/SinthooranR-react/static/media/me.66512055.png"
+    "main.css": "/static/css/main.b12234f5.chunk.css",
+    "main.js": "/static/js/main.e0c28c74.chunk.js",
+    "main.js.map": "/static/js/main.e0c28c74.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fa1899b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fa1899b5.js.map",
+    "static/js/2.390e01c6.chunk.js": "/static/js/2.390e01c6.chunk.js",
+    "static/js/2.390e01c6.chunk.js.map": "/static/js/2.390e01c6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4b198a34f968a17b7a358798aa0ea6c4.js": "/precache-manifest.4b198a34f968a17b7a358798aa0ea6c4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b12234f5.chunk.css.map": "/static/css/main.b12234f5.chunk.css.map",
+    "static/js/2.390e01c6.chunk.js.LICENSE.txt": "/static/js/2.390e01c6.chunk.js.LICENSE.txt",
+    "static/media/Sinthooran_Ravinathan_Resume.pdf": "/static/media/Sinthooran_Ravinathan_Resume.1ccd6d4f.pdf",
+    "static/media/Welcome.module.css": "/static/media/nighttime.fee6bd75.jpg",
+    "static/media/me.png": "/static/media/me.66512055.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.eac657b6.js",
+    "static/js/runtime-main.fa1899b5.js",
     "static/js/2.390e01c6.chunk.js",
-    "static/css/main.4936982f.chunk.css",
-    "static/js/main.9f01da62.chunk.js"
+    "static/css/main.b12234f5.chunk.css",
+    "static/js/main.e0c28c74.chunk.js"
   ]
 }

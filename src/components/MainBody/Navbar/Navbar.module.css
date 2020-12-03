@@ -11,7 +11,7 @@
 .Navbar nav {
   display: flex;
   justify-content: center;
-  margin-right: 5%;
+  margin-right: 10%;
 }
 
 .Navbar a {

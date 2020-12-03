@@ -1,7 +1,7 @@
 {
   "name": "sinthooran-react-editing-version",
   "version": "0.1.0",
-  "homepage": "http://SinthooranR.github.io/SinthooranR-react",
+  "homepage": "http://SinthooranR.github.io",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",

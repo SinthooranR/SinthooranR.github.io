@@ -7,12 +7,7 @@ import { MainContext } from "./main_context";
 import classes from "./App.module.css";
 
 function App() {
-  if (
-    window.location.href === "https://sinthooranr.github.io/SinthooranR-react"
-  ) {
-    window.location.href = "https://sinthooranr.github.io/";
-  }
-
+  
   const [theme, setTheme] = useState(false);
   let currentTheme;
 

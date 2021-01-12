@@ -36,17 +36,30 @@ const aboutMe = (props) => (
             <li>Python</li>
             <li>Java</li>
             <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
+            <li>CSS/SASS</li>
+            <li>JavaScript/TypeScript</li>
           </ul>
         </div>
         <div>
           <ul>
-            <h3>Frameworks/Libraries/IDEs</h3>
+            <h3>Frameworks/Libraries</h3>
             <li>VueJS</li>
             <li>React</li>
+            <li>Redux</li>
+            <li>Express</li>
+            <li>Axios</li>
+            <li>Bootstrap</li>
+            <li>Material-UI</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <h3>Tools</h3>
             <li>Android Studio</li>
             <li>Visual Studio</li>
+            <li>Git</li>
+            <li>IntelliJ</li>
+            <li>Node</li>
           </ul>
         </div>
         <div>
@@ -55,7 +68,6 @@ const aboutMe = (props) => (
             <li>Microsoft Windows</li>
             <li>Mac OS</li>
             <li>Linux</li>
-            <li>Arch Linux</li>
           </ul>
         </div>
       </span>

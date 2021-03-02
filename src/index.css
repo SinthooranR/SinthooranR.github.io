@@ -6,7 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  min-height: 100vh; /* minus the height of the footer */
+  height: 100vh; /* minus the height of the footer */
+  width: 100%;
 }
 
 code {

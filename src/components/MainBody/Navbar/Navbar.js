@@ -1,9 +1,8 @@
 import React, { useContext } from "react";
-import { Email, GitHub, LinkedIn, PictureAsPdfSharp } from "@material-ui/icons";
-import Resume from "../../../assets/Sinthooran_Ravinathan_Resume.pdf";
 import { MainContext } from "../../../main_context";
 import WbSunnyIcon from "@material-ui/icons/WbSunny";
 import NightsStayIcon from "@material-ui/icons/NightsStay";
+import {Link} from "react-scroll";
 import classes from "./Navbar.module.scss";
 
 const Navbar = (props) => {
@@ -32,32 +31,12 @@ const Navbar = (props) => {
         <h3>Sinthooran Ravinathan</h3>
       </span>
 
-      <nav>
-        <a
-          href="mailto: sinthooranr@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Email fontSize="large" />
-        </a>
-        <a
-          href="https://github.com/SinthooranR"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <GitHub fontSize="large" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/sinthooranravinathan/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <LinkedIn fontSize="large" />
-        </a>
-        <a href={Resume} target="_blank" rel="noopener noreferrer">
-          <PictureAsPdfSharp fontSize="large" />
-        </a>
-      </nav>
+      <div>
+        <Link activeClass={classes.ActiveScroll} to="home" spy={true} smooth={true} offset={-70} duration={500}>Home</Link>
+        <Link activeClass={classes.ActiveScroll} to="about" spy={true} smooth={true} offset={-70} duration={500}>About</Link>
+        <Link activeClass={classes.ActiveScroll} to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link>
+      </div>
+
       <div onClick={themeSwitch} className={classes.ThemeIcon}>
         {!mainTheme.theme ? (
           <WbSunnyIcon fontSize="large" />

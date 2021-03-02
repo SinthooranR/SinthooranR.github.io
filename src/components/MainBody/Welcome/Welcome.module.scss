@@ -1,0 +1,63 @@
+.Welcome {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  h1 {
+    width: 75%;
+    animation: fade 3s ease-in;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-evenly;
+    a {
+      margin: 0 5% 0 5%;
+    }
+    a:hover {
+      background-color: #cecece;
+      background-size: 500px 100px;
+      background-clip: content-box;
+      border-radius: 50%;
+      transition: 1s;
+    }
+  }
+}
+
+.LightBg {
+  background-image: url("../../../assets/images/backgrounds/daytime.png");
+  background-size: cover;
+  transition: 1s; /*use this for transitioning between the themes*/
+  a,
+  a:visited {
+    color: #414345;
+  }
+}
+
+.DarkBg {
+  background-image: url("../../../assets/images/backgrounds/nighttime.jpg");
+  background-size: cover;
+  transition: 1s;
+  a,
+  a:visited {
+    color: #fefefe;
+  }
+}
+
+@media screen and (min-width: 299px) and (max-width: 1099px) {
+  .Welcome {
+    h1 {
+      padding-top: 25%;
+    }
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+}

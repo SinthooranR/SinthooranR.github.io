@@ -3,24 +3,28 @@
         "title": "WeatherOwl",
         "description": "Android Studio | Java | OpenWeatherMap API ",
         "link": "https://github.com/SinthooranR/WeatherApp",
+        "deployLink": "aaa",
         "image": "images/WeatherOwl.jpg"
     },
     {
         "title": "Repository Viewing App",
         "description": "HTML | CSS | JavaScript | D3.js",
         "link": "https://github.com/SinthooranR/InfoVis_FinalProject",
+        "deployLink": "",
         "image": "images/repoviewer.png"
     },
     {
         "title": "Notifier",
         "description": "VueJS | NodeJS | Postgres | GraphQL",
         "link": "https://github.com/SinthooranR/CSCI3230U-Project",
+        "deployLink": "",
         "image": "images/notifier.gif"
     }, 
     {
     "title": "Mock Forum Site",
     "description": "React | NodeJS | Express | MongoDB | Axios",
     "link": "https://github.com/SinthooranR/Forum_Site",
+    "deployLink": "",
     "image": "images/mockForum.webp"
 }
 ]

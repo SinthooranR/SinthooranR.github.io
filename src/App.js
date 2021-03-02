@@ -4,10 +4,9 @@ import Welcome from "./components/MainBody/Welcome/Welcome";
 import AboutMe from "./components/MainBody/AboutMe/AboutMe";
 import Projects from "./components/MainBody/Projects/Projects";
 import { MainContext } from "./main_context";
-import classes from "./App.module.css";
+import classes from "./App.module.scss";
 
 function App() {
-  
   const [theme, setTheme] = useState(false);
   let currentTheme;
 

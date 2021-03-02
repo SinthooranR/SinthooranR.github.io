@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "../../Reusuable/Project/Project";
 import projectList from "../../../ProjectList.json";
-import classes from "./Projects.module.css";
+import classes from "./Projects.module.scss";
 
 const projects = (props) => {
   return (

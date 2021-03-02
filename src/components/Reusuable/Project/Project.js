@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { MainContext } from "../../../main_context";
 import { GitHub } from "@material-ui/icons";
-import classes from "./Project.module.css";
+import classes from "./Project.module.scss";
 
 const Project = (props) => {
   const panelContext = useContext(MainContext);

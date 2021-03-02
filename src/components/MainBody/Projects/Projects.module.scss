@@ -3,12 +3,13 @@
   text-align: center;
   justify-content: center;
   grid-gap: 40px;
-  grid-template-columns: repeat(2, calc(90% / 2));
+  grid-template-columns: repeat(2, calc(100% / 2));
   grid-auto-rows: auto;
   grid-auto-rows: minmax(10px, auto);
   justify-content: center;
   min-height: 100vh;
   padding-bottom: 30px;
+  margin: 0 5% 0 5%;
 }
 
 @media (max-width: 999px) {
@@ -16,7 +17,7 @@
     display: grid;
     text-align: center;
     grid-gap: 10px;
-    grid-template-columns: repeat(2, calc(90% / 2));
+    grid-template-columns: repeat(2, calc(100% / 2));
     grid-auto-rows: auto;
     grid-auto-rows: minmax(10px, auto);
     justify-content: center;
@@ -28,7 +29,7 @@
     display: grid;
     text-align: center;
     grid-gap: 10px;
-    grid-template-columns: repeat(2, calc(90% / 2));
+    grid-template-columns: repeat(1, calc(100% / 2));
     grid-auto-rows: auto;
     grid-auto-rows: minmax(10px, auto);
     justify-content: center;
@@ -40,7 +41,7 @@
     display: grid;
     text-align: center;
     grid-gap: 30px;
-    grid-template-columns: repeat(1, calc(800px / 2));
+    grid-template-columns: repeat(1, calc(100% / 2));
     grid-auto-rows: auto;
     grid-auto-rows: minmax(10px, auto);
     justify-content: center;
@@ -54,7 +55,7 @@
     display: grid;
     text-align: center;
     grid-gap: 10px;
-    grid-template-columns: repeat(1, calc(700px / 2));
+    grid-template-columns: repeat(1, calc(100%));
     grid-auto-rows: auto;
     grid-auto-rows: minmax(10px, auto);
     justify-content: center;

@@ -1,0 +1,96 @@
+.AboutMe {
+  width: 100%;
+  margin: 0px;
+  min-height: 85vh;
+
+  img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  span {
+    margin: 0px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .Description {
+    font-size: 18px;
+    font-family: "Karla", sans-serif;
+
+    .SkillGrid {
+      display: grid;
+      text-align: center;
+      grid-gap: 10px;
+      grid-template-columns: repeat(4, calc(100% / 4));
+      grid-auto-rows: auto;
+      grid-auto-rows: minmax(10px, auto);
+      justify-content: center;
+      padding-right: 30px;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .AboutMe {
+    .Description {
+      .SkillGrid {
+        display: grid;
+        text-align: center;
+        grid-gap: 5px;
+        grid-template-columns: repeat(4, calc(100% / 4));
+        grid-auto-rows: auto;
+        grid-auto-rows: minmax(5px, auto);
+        justify-content: center;
+        padding-right: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 499px) {
+  .AboutMe {
+    .Description {
+      .Interests {
+        margin-right: 10%;
+      }
+      .SkillGrid {
+        display: grid;
+        text-align: center;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1, calc(90%));
+        grid-auto-rows: auto;
+        grid-auto-rows: minmax(5px, auto);
+        justify-content: center;
+        padding-right: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 399px) {
+  .AboutMe {
+    .Description {
+      .Interests {
+        margin-right: 10%;
+      }
+      .SkillGrid {
+        display: grid;
+        text-align: center;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1, calc(100%));
+        grid-auto-rows: auto;
+        grid-auto-rows: minmax(5px, auto);
+        justify-content: center;
+        padding-right: 30px;
+      }
+    }
+  }
+}

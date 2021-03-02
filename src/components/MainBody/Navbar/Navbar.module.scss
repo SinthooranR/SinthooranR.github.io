@@ -1,0 +1,74 @@
+.Navbar {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  box-shadow: 5px 5px 4px grey;
+  height: 65px;
+
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+  }
+
+  a {
+    margin: 0 5% 0 5%;
+    justify-content: center;
+  }
+
+  .Name {
+    width: 250px;
+  }
+
+  .ThemeIcon {
+    margin-right: 2.5%;
+    cursor: pointer;
+  }
+
+  .ThemeIcon:hover,
+  a:hover {
+    background-color: #cecece;
+    background-size: 500px 100px;
+    background-clip: content-box;
+    border-radius: 50%;
+    transition: 1s;
+  }
+}
+
+.LightNav {
+  background-color: #fefefe;
+  transition: 1s;
+  a,
+  a:visited {
+    color: #414345;
+  }
+}
+
+.DarkNav {
+  background-color: #414345;
+  transition: 1s;
+  a,
+  a:visited {
+    color: #fefefe;
+  }
+}
+
+@media (max-width: 800px) {
+  .Navbar {
+    .Name {
+      display: none;
+    }
+    nav {
+      margin-left: 7.5%;
+    }
+  }
+}
+
+@media (max-width: 499px) {
+}
+
+@media (max-width: 399px) {
+}

@@ -4,7 +4,7 @@ import Resume from "../../../assets/Sinthooran_Ravinathan_Resume.pdf";
 import { MainContext } from "../../../main_context";
 import WbSunnyIcon from "@material-ui/icons/WbSunny";
 import NightsStayIcon from "@material-ui/icons/NightsStay";
-import classes from "./Navbar.module.css";
+import classes from "./Navbar.module.scss";
 
 const Navbar = (props) => {
   const mainTheme = useContext(MainContext);

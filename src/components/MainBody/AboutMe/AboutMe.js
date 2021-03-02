@@ -1,6 +1,6 @@
 import React from "react";
 import MyPic from "../../../assets/images/me.png";
-import classes from "./AboutMe.module.css";
+import classes from "./AboutMe.module.scss";
 
 const aboutMe = (props) => (
   <div className={classes.AboutMe}>

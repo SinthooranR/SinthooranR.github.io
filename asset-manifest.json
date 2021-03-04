@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.363cec72.chunk.css",
-    "main.js": "/static/js/main.2224e2e7.chunk.js",
-    "main.js.map": "/static/js/main.2224e2e7.chunk.js.map",
+    "main.css": "/static/css/main.cd75b85e.chunk.css",
+    "main.js": "/static/js/main.c3dac5c8.chunk.js",
+    "main.js.map": "/static/js/main.c3dac5c8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fa1899b5.js",
     "runtime-main.js.map": "/static/js/runtime-main.fa1899b5.js.map",
     "static/js/2.8341f075.chunk.js": "/static/js/2.8341f075.chunk.js",
     "static/js/2.8341f075.chunk.js.map": "/static/js/2.8341f075.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d501c2f1df1d557aa27cee6f30d2e796.js": "/precache-manifest.d501c2f1df1d557aa27cee6f30d2e796.js",
+    "precache-manifest.a92b4617cd17de11898a061d14995b91.js": "/precache-manifest.a92b4617cd17de11898a061d14995b91.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.363cec72.chunk.css.map": "/static/css/main.363cec72.chunk.css.map",
+    "static/css/main.cd75b85e.chunk.css.map": "/static/css/main.cd75b85e.chunk.css.map",
     "static/js/2.8341f075.chunk.js.LICENSE.txt": "/static/js/2.8341f075.chunk.js.LICENSE.txt",
     "static/media/Sinthooran_Ravinathan_Resume.pdf": "/static/media/Sinthooran_Ravinathan_Resume.1f2bebed.pdf",
     "static/media/Welcome.module.scss": "/static/media/nighttime.fee6bd75.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.fa1899b5.js",
     "static/js/2.8341f075.chunk.js",
-    "static/css/main.363cec72.chunk.css",
-    "static/js/main.2224e2e7.chunk.js"
+    "static/css/main.cd75b85e.chunk.css",
+    "static/js/main.c3dac5c8.chunk.js"
   ]
 }

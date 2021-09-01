@@ -1,0 +1,77 @@
+.Welcome {
+  width: 100%;
+  min-height: 50vh;
+  padding-top: 5vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  h1 {
+    width: 75%;
+    animation: fade 0.1s ease-in;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-evenly;
+    a {
+      margin: 0 1rem 0 1rem;
+    }
+  }
+}
+
+.LightBg {
+  background-image: url("../images/backgrounds/daytime.png");
+  background-size: cover;
+  object-fit: contain;
+  background-position: 0rem -10rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: 0.5s; /*use this for transitioning between the themes*/
+  a,
+  a:visited {
+    color: #414345;
+  }
+  a:hover {
+    color: black;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+.DarkBg {
+  background-image: url("../images/backgrounds/nighttime.jpg");
+  background-size: cover;
+  object-fit: contain;
+  background-position: 0rem -25rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: 0.5s;
+  a,
+  a:visited {
+    color: #fefefe;
+  }
+  a:hover {
+    color: darkgray;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px) {
+  .Welcome {
+    height: 20vh;
+  }
+  .LightBg {
+    background-size: auto;
+  }
+  .DarkBg {
+    background-size: auto;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+}

@@ -36,9 +36,9 @@
   },
   {
     "title": "Chat App",
-    "description": "React-TS | Redux | Firebase | SCSS",
+    "description": "React | Redux | GraphQL | PostgreSQL | Docker",
     "link": "https://github.com/SinthooranR/Chat_App",
-    "deployLink": "https://mock-chat-ts.web.app",
+    "deployLink": "https://chat-app-postgres.herokuapp.com/",
     "image": "images/ChatApp.PNG"
   }
 ]

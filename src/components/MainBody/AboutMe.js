@@ -1,17 +1,17 @@
 import React from "react";
-import MyPic from "../../../assets/images/me.png";
-import classes from "./AboutMe.module.scss";
+import MyPic from "../../assets/images/me.png";
+import classes from "../../assets/styles/AboutMe.module.scss";
 
-const aboutMe = (props) => (
+const aboutMe = () => (
   <div className={classes.AboutMe} id="about">
-    <h1>About Me and My Education</h1>
+    <h1>About Me</h1>
     <img src={MyPic} alt="avatar" />
 
     <div className={classes.Description}>
       <p>
         Graduated from the University of Ontario Institute of Technology(UOIT)
-        as of May 2020 in Computer Science and aspire to work as a Web/Mobile
-        Developer
+        as of May 2020 in Computer Science and currently working as a Web
+        Developer whose passionate in both Frontend and Backend development.
       </p>
       <span>
         <h2>Interests:</h2>
@@ -38,12 +38,12 @@ const aboutMe = (props) => (
             <li>HTML</li>
             <li>CSS/SASS</li>
             <li>JavaScript/TypeScript</li>
+            <li>GraphQL</li>
           </ul>
         </div>
-        <div>
+        <div className={classes.Frameworks}>
           <ul>
             <h3>Frameworks/Libraries</h3>
-            <li>VueJS</li>
             <li>React</li>
             <li>Redux</li>
             <li>Express</li>
@@ -60,14 +60,7 @@ const aboutMe = (props) => (
             <li>Git</li>
             <li>IntelliJ</li>
             <li>Node</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <h3>Operating Systems</h3>
-            <li>Microsoft Windows</li>
-            <li>Mac OS</li>
-            <li>Linux</li>
+            <li>Docker</li>
           </ul>
         </div>
       </span>

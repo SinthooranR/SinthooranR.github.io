@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf3048fa.chunk.css",
+    "main.css": "/static/css/main.ab6fe4c4.chunk.css",
     "main.js": "/static/js/main.4abc076f.chunk.js",
     "main.js.map": "/static/js/main.4abc076f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fa1899b5.js",
@@ -8,9 +8,9 @@
     "static/js/2.cfed9039.chunk.js": "/static/js/2.cfed9039.chunk.js",
     "static/js/2.cfed9039.chunk.js.map": "/static/js/2.cfed9039.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e0c6f8a42e776b6a3a34f1ae51d2e97d.js": "/precache-manifest.e0c6f8a42e776b6a3a34f1ae51d2e97d.js",
+    "precache-manifest.dfb667ea13b44645c73a9aaedd7d2bdd.js": "/precache-manifest.dfb667ea13b44645c73a9aaedd7d2bdd.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.cf3048fa.chunk.css.map": "/static/css/main.cf3048fa.chunk.css.map",
+    "static/css/main.ab6fe4c4.chunk.css.map": "/static/css/main.ab6fe4c4.chunk.css.map",
     "static/js/2.cfed9039.chunk.js.LICENSE.txt": "/static/js/2.cfed9039.chunk.js.LICENSE.txt",
     "static/media/Sinthooran_Ravinathan_Resume.pdf": "/static/media/Sinthooran_Ravinathan_Resume.7458b49f.pdf",
     "static/media/Welcome.module.scss": "/static/media/nighttime.fee6bd75.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.fa1899b5.js",
     "static/js/2.cfed9039.chunk.js",
-    "static/css/main.cf3048fa.chunk.css",
+    "static/css/main.ab6fe4c4.chunk.css",
     "static/js/main.4abc076f.chunk.js"
   ]
 }

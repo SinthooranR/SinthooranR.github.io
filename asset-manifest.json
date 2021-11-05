@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.23333bd5.chunk.css",
-    "main.js": "/static/js/main.4abc076f.chunk.js",
-    "main.js.map": "/static/js/main.4abc076f.chunk.js.map",
+    "main.css": "/static/css/main.9af19cf8.chunk.css",
+    "main.js": "/static/js/main.fa53981a.chunk.js",
+    "main.js.map": "/static/js/main.fa53981a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fa1899b5.js",
     "runtime-main.js.map": "/static/js/runtime-main.fa1899b5.js.map",
-    "static/js/2.cfed9039.chunk.js": "/static/js/2.cfed9039.chunk.js",
-    "static/js/2.cfed9039.chunk.js.map": "/static/js/2.cfed9039.chunk.js.map",
+    "static/js/2.ba2b4de6.chunk.js": "/static/js/2.ba2b4de6.chunk.js",
+    "static/js/2.ba2b4de6.chunk.js.map": "/static/js/2.ba2b4de6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1623359a6bdd7d32e009a8b302a9f92c.js": "/precache-manifest.1623359a6bdd7d32e009a8b302a9f92c.js",
+    "precache-manifest.d4a3c0d56500226fc275b1545b641f6d.js": "/precache-manifest.d4a3c0d56500226fc275b1545b641f6d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.23333bd5.chunk.css.map": "/static/css/main.23333bd5.chunk.css.map",
-    "static/js/2.cfed9039.chunk.js.LICENSE.txt": "/static/js/2.cfed9039.chunk.js.LICENSE.txt",
+    "static/css/main.9af19cf8.chunk.css.map": "/static/css/main.9af19cf8.chunk.css.map",
+    "static/js/2.ba2b4de6.chunk.js.LICENSE.txt": "/static/js/2.ba2b4de6.chunk.js.LICENSE.txt",
     "static/media/Sinthooran_Ravinathan_Resume.pdf": "/static/media/Sinthooran_Ravinathan_Resume.7458b49f.pdf",
     "static/media/Welcome.module.scss": "/static/media/nighttime.fee6bd75.jpg",
     "static/media/me.png": "/static/media/me.66512055.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fa1899b5.js",
-    "static/js/2.cfed9039.chunk.js",
-    "static/css/main.23333bd5.chunk.css",
-    "static/js/main.4abc076f.chunk.js"
+    "static/js/2.ba2b4de6.chunk.js",
+    "static/css/main.9af19cf8.chunk.css",
+    "static/js/main.fa53981a.chunk.js"
   ]
 }
